@@ -3,69 +3,68 @@
 *::after {
   margin: 0;
   box-sizing: border-box;
-} 
+}
 
 body {
-    background-color: #fff;
+  background-color: #fff;
 }
 img {
-    max-width: 100%;
-    height: 270px;
+  max-width: 100%;
+  height: 270px;
 }
 
 .h1 {
-    font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-    margin: 20px;
-}
-
-.p1 {
-    margin: 20px;
-}
-
-.container-2 {
-    background-color: lightpink;
-    margin: 30px 20px;
-    padding: 10px;
-    border-radius: 8px;
-    width: auto;
-    height: 180px;
-}
-
-.container-2 h3 {
-    color: darkmagenta;
-    margin: 10px 7px;
-}
-
-.container-2 li {
-    margin: 10px;
-    padding: 3px;
-}
-
-.h2 {
-    color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
-    margin: 15px 20px;
+  margin: 20px;
+}
 
+.p1 {
+  margin: 20px;
+}
+
+.container-2 {
+  background-color: #fbe4d6;
+  margin: 30px 20px;
+  padding: 10px;
+  border-radius: 8px;
+  width: auto;
+  height: 180px;
+}
+
+.container-2 h3 {
+  color: darkmagenta;
+  margin: 10px 7px;
+}
+
+.container-2 li {
+  margin: 10px;
+  padding: 3px;
+}
+
+.h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 15px 20px;
 }
 
 .ul2 {
-    margin: 20px 20px;
+  margin: 20px 20px;
 }
 
 .ul2 li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .ul2 li::marker {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
 }
 
 .h22 {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -73,15 +72,15 @@ img {
 }
 
 .ol li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .ol li::marker {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
 }
 
 .ol li p {
-    font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -89,202 +88,204 @@ img {
 }
 
 .ol li p b {
-    color: hsl(30, 10%, 34%)
+  color: hsl(30, 10%, 34%);
 }
 
 hr {
-    margin: 20px;
+  margin: 20px;
 }
 
 .h23 {
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
   margin: 0 25px;
-    margin: 20px;
+  margin: 20px;
 }
 
 .p1 {
-    font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   margin: 15px 25px;
-    margin: 20px;
+  margin: 20px;
 }
 
 .table {
-    margin: 20px;
+  margin: 20px;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .table table tr {
-    border-bottom: 1px solid hsl(30, 10%, 34%);
-
+  border-bottom: 1px solid hsl(30, 10%, 34%);
 }
 
 td {
-    padding: 10px;
+  padding: 10px;
 }
 
 .figure {
-    font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-style: normal;
-    color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 36%);
 }
 
+.table table tr:nth-child(4) {
+  border-bottom: none;
+}
 
 @media (min-width: 768px) {
-    body {
-        background-color: #FBE4D6;
-      }
-      
-      .img-container {
-        max-width: 100%;
-        height: 270px;
-        border-radius: 10px;
-      }
-      
-      .container {
-        display: flex;
-        background-color: #fff;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        margin: 100px 250px;
-        border-radius: 20px;
-      }
-      
-      .h1 {
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 25px;
-      }
-      
-      .p1 {
-        font-size: 16px;
-      }
-      
-      .container-2 {
-        background-color: #FBE4D6;
-        margin: 30px 10px 20px 10px;
-        padding: 20px;
-        border-radius: 8px;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-      
-      .container-2 ul li {
-        margin: 10px;
-      }
-      
-      .h3 {
-        color: purple;
-        margin-bottom: 10px;
-      }
-      
-      .span1s {
-        color: hsl(30, 10%, 34%);
-      }
-      
-      .h2 {
-        color: hsl(14, 45%, 36%);
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        margin-left: 25px;
-      }
-      
-      .ul2 li {
-        margin: 15px;
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      hr {
-        margin: 25px;
-      }
-      
-      .h22 {
-        margin-left: 25px;
-        margin-bottom: 20px;
-        color: hsl(14, 45%, 36%);
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .ol li {
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        margin: 20px;
-      }
-      
-      .ol li::marker {
-        color: hsl(14, 45%, 36%);
-      }
-      
-      .h23 {
-        color: hsl(14, 45%, 36%);
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-        margin: 0 25px;
-      }
-      
-      .p1 {
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        margin: 15px 25px;
-      }
-      
-      .table {
-        margin: 25px;
-      }
-      
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      
-      tr {
-        border-bottom: 1px solid #000000;
-        padding: 30px;
-      }
-      
-      td {
-        padding: 20px;
-        text-align: start;
-      } 
-        
-      .figure {
-          font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-          color: hsl(14, 45%, 36%);
-      }
+  body {
+    background-color: #fbe4d6;
+  }
+
+  .img-container {
+    max-width: 100%;
+    height: 270px;
+    border-radius: 10px;
+  }
+
+  .container {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px 250px;
+    border-radius: 20px;
+  }
+
+  .h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+  }
+
+  .p1 {
+    font-size: 16px;
+  }
+
+  .container-2 {
+    background-color: #fbe4d6;
+    margin: 30px 10px 20px 10px;
+    padding: 20px;
+    border-radius: 8px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-2 ul li {
+    margin: 10px;
+  }
+
+  .h3 {
+    color: purple;
+    margin-bottom: 10px;
+  }
+
+  .span1s {
+    color: hsl(30, 10%, 34%);
+  }
+
+  .h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+
+  .ul2 li {
+    margin: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  hr {
+    margin: 25px;
+  }
+
+  .h22 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .ol li {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+  }
+
+  .ol li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+
+  .h23 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 25px;
+  }
+
+  .p1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px 25px;
+  }
+
+  .table {
+    margin: 25px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  tr {
+    border-bottom: 1px solid #000000;
+    padding: 30px;
+  }
+
+  td {
+    padding: 20px;
+    text-align: start;
+  }
+
+  .figure {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+  }
+
+  tr:nth-child(4) {
+    border-bottom: none;
+  }
 }
-
-
-
-
