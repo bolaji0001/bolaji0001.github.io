@@ -142,7 +142,7 @@ td {
 
 @media (min-width: 768px) {
     body {
-        background-color: lightpink;
+        background-color: #FBE4D6;
       }
       
       .img-container {
@@ -176,7 +176,7 @@ td {
       }
       
       .container-2 {
-        background-color: rgba(247, 220, 198, 0.603);
+        background-color: #FBE4D6;
         margin: 30px 10px 20px 10px;
         padding: 20px;
         border-radius: 8px;
